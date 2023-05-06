@@ -7,8 +7,8 @@ class HomeController extends GetxController
 
   RxList<HomeModel> PlanetList = [
     HomeModel(
-        image: "assets/image/mars.png",
-        view_image: "assets/image/mars_land.jpg",
+        image: "assets/images/mars.png",
+        view_image: "assets/images/mars_bg.jpg",
         name: "Mars",
         distance: "54.6m",
         gravity: "3.711",
@@ -18,8 +18,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/neptune.png",
-        view_image: "assets/image/neptune_land.jpg",
+        image: "assets/images/neptune.png",
+        view_image: "assets/images/neptune_bg.png",
         name: "Neptune",
         distance: "2.7b",
         gravity: "11.5",
@@ -29,8 +29,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/moon.png",
-        view_image: "assets/image/moon_land.jpg",
+        image: "assets/images/moon.png",
+        view_image: "assets/images/moon_bg.jpg",
         name: "Moon",
         distance: "384.4k",
         gravity: "1.62",
@@ -40,8 +40,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/earth.png",
-        view_image: "assets/image/earth_land.png",
+        image: "assets/images/earth.png",
+        view_image: "assets/images/earth_bg.png",
         name: "Earth",
         distance: "149.6m",
         gravity: "9.698",
@@ -51,8 +51,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/mercury.png",
-        view_image: "assets/image/mercury_land.jpg",
+        image: "assets/images/mercury.png",
+        view_image: "assets/images/mercury_bg.png",
         name: "Mercury",
         distance: "130.36m",
         gravity: "3.7",
@@ -62,8 +62,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/jupiter.png",
-        view_image: "assets/image/jupiter_land.jpg",
+        image: "assets/images/jupiter.png",
+        view_image: "assets/images/jupiter_bg.png",
         name: "Jupiter",
         distance: "778.3m",
         gravity: "27.92",
@@ -73,8 +73,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/saturn.png",
-        view_image: "assets/image/saturn_land.jpg",
+        image: "assets/images/saturn.png",
+        view_image: "assets/images/saturn_bg.png",
         name: "Saturn",
         distance: "1.6041b",
         gravity: "10.44",
@@ -84,8 +84,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/venus.png",
-        view_image: "assets/image/venus_land.jpg",
+        image: "assets/images/venus.png",
+        view_image: "assets/images/venus_bg.png",
         name: "Venus",
         distance: "229.53m",
         gravity: "8.87",
@@ -95,8 +95,8 @@ class HomeController extends GetxController
         price: "2.8"
     ),
     HomeModel(
-        image: "assets/image/uranus.png",
-        view_image: "assets/image/uranus_land.jpg",
+        image: "assets/images/uranus.png",
+        view_image: "assets/images/uranus_bg.png",
         name: "Uranus",
         distance: "2.9068b",
         gravity: "8.87",
